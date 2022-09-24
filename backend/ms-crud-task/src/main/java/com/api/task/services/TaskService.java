@@ -35,5 +35,14 @@ public class TaskService {
         return taskDTOList;
     }
 
-
+    @Transactional
+    public List<TaskDTO> findAll(){
+        List<Task> taskList = repository.findAll();
+        List<TaskDTO> taskDTOList = new ArrayList<>();
+        taskList.forEach(task -> {
+            TaskDTO dto = new TaskDTO(task);
+            taskDTOList.add(dto);
+        });
+        return taskDTOList;
+    }
 }
