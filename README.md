@@ -23,7 +23,7 @@ Desenvolvimento de um sistema API REST de usuários e tasks, com os seguintes ca
 
 ## Desenvolvimento Moderno : Relacional
 
-![diagram_task.png](Anexos/diagram_task.png)
+![diagram_task.png](Anexos/diagram_task.jpg)
 
 ## Dependências da Aplicação:
 
