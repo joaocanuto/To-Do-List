@@ -1,14 +1,29 @@
 # To do List
 
-## Resumo
 
-Um projeto desenvolvido essencialmente com os frameworks Angular e Spring Boot. 
+## Visão geral do sistema:
 
-A ideia do projeto é recriar uma To Do List para o usuário, contendo todas as funções básicas. Sendo elas: 
+Desenvolvimento de um sistema API REST de usuários e tasks, com os seguintes casos de uso:
 
-- Criar/Excluir/Atualizar Tarefas
-- Listar tarefas concluidas/não-concluidas/para-fazer
-- Listar tarefas por filtros como data, prioridade
+- Buscar os usuários
+- Buscar um usuários pelo sua id
+- Inserir um novo usuário
+- Listar Usuários
+- Deletar Usuários
+- Atualizar Usuários
+- Inserir uma nova Task
+- Buscar/Listar Tasks
+    - por ID
+    - por Nome
+    - por Categoria
+    - por Prioridades
+    - por Status
+- Deletar Task
+- Atualizar Task
+
+## Desenvolvimento Moderno : Relacional
+
+![diagram_task.png](anexos/diagram_task.png)
 
 ## Dependências da Aplicação:
 
